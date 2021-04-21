@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -11,25 +7,27 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="nav">
             <h1 class="nav__heading">Discover hidden places in the world around you</h1>
-            <a href=".nav">Download Excursion (Coming soon!)</a>
+            <a class="#nav__heading" href=".nav">Download Excursion (Coming soon!)</a>
         </header>
         <main>
             <section class="landing">
-                <video class="landing__video" src="resources/excursion.mp4">Video unavailable</video>
+                <video class="landing__video" src="resources/excursion.mp4" autoplay muted>Video unavailable</video>
             </section>
             <section class="info">
-                <h2 class="info__heading">Your personal Travel guide</h2>
+                <h2 class="info__heading h2">Your personal Travel guide</h2>
                 <p class="info__content">Excursion remembers places you like, and recommends new points of interest around you.</p>
                 <img class="info__img" src="resources/camp-pic.webp" alt="">
             </section>
             <footer class="release">
                 <img class="release__img" src="resources/phone-icon.webp" alt="">
-                <h2 class="release__heading">Coming Soon for iPhone and Android</h2>
-                <a href="nav">Download Excursion (Coming soon!)</a>
+                <h2 class="release__heading h2">Coming Soon for iPhone and Android</h2>
+                <a href="#nav__heading">Download Excursion (Coming soon!)</a>
                 <aside class="release__tm">© Excursion</aside>
             </footer>
         </main>

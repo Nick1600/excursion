@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+h2 {
+    font-size: 42px;
+}
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.info__content {
+    font-size: 21px;
+    color: grey;
+}
+
+.release__tm {
+    text-align: right;
+}
